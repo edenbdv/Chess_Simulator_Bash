@@ -1,5 +1,6 @@
-# Chess_Simulator_Bash
+# Chess Simulator Bash
 
+This repository contains a set of Bash scripts designed to help you manage and analyze chess games stored in PGN (Portable Game Notation) files. Whether you have a large collection of chess games that need to be split into manageable pieces or you want to simulate and visualize individual games, these scripts provide a straightforward and efficient solution.
 
 ## Installation
 
