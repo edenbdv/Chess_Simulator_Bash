@@ -14,7 +14,7 @@ This repository contains a set of Bash scripts designed to help you manage and a
 2. Make the script executable:
 
     ```bash
-    chmod +x ./pgn_split.sh
+    chmod +x ./split_pgn.sh
     chmod +x ./chess_sim.sh
 
     ```
@@ -27,10 +27,10 @@ This repository contains a set of Bash scripts designed to help you manage and a
 
 1. Prepare your PGN file and place it in the project directory. For example, `capmemel24.pgn`.
 
-2. Run the `pgn_split.sh` script to split the PGN file:
+2. Run the `split_pgn.sh` script to split the PGN file:
 
     ```bash
-    ./pgn_split.sh ./capmemel24.pgn ./splited_pgn
+    ./split_pgn.sh ./capmemel24.pgn ./splited_pgn
     ```
 
      - The first argument is the path to the input PGN file.
