@@ -48,3 +48,11 @@ This repository contains a set of Bash scripts designed to help you manage and a
     ```
 
     - The argument is the path to the specific split PGN file you want to simulate.
+
+
+## Features
+
+- **Split PGN Files:** Automatically split large PGN files into smaller, more manageable files.
+- **Simulate Chess Games:** Run simulations on individual PGN files to analyze and visualize games.
+- **Command Line Interface:** Easy-to-use command line interface for executing the scripts.
+- **Customizable:** Modify and extend the scripts to suit your specific needs.
