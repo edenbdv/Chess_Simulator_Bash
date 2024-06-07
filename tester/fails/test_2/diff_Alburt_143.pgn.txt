@@ -1,0 +1,28 @@
+1,13c1,13
+< [Event "CSR-ch int"]
+< [Site "Decin"]
+< [Date "1977.??.??"]
+< [Round "13"]
+< [White "Giorgadze, Tamaz"]
+< [Black "Alburt, Lev O"]
+< [Result "1/2-1/2"]
+< [WhiteElo "2445"]
+< [BlackElo "2505"]
+< [ECO "D41"]
+< 
+< 1.c4 c5 2.Nf3 Nf6 3.Nc3 d5 4.cxd5 Nxd5 5.g3 Nc6 6.Bg2 e6 7.O-O Be7 8.d4 O-O
+< 9.Nxd5 exd5 10.dxc5 Bxc5 11.a3 a5 12.Ne1 d4 13.Nd3 Bb6 14.Nf4 Re8 15.Nd5 Be6
+---
+> [Event "CSR-ch int"]
+> [Site "Decin"]
+> [Date "1977.??.??"]
+> [Round "13"]
+> [White "Giorgadze, Tamaz"]
+> [Black "Alburt, Lev O"]
+> [Result "1/2-1/2"]
+> [WhiteElo "2445"]
+> [BlackElo "2505"]
+> [ECO "D41"]
+> 
+> 1.c4 c5 2.Nf3 Nf6 3.Nc3 d5 4.cxd5 Nxd5 5.g3 Nc6 6.Bg2 e6 7.O-O Be7 8.d4 O-O
+> 9.Nxd5 exd5 10.dxc5 Bxc5 11.a3 a5 12.Ne1 d4 13.Nd3 Bb6 14.Nf4 Re8 15.Nd5 Be6

@@ -11,7 +11,12 @@ metadata=$(grep -E "^\[.*\]" "$pgn_file")
 echo "Metadata from PGN file:"
 echo "$metadata"
 
-moves=$(tail -n +13 "$pgn_file")
+move_start_line=$(grep -n -m 1 '^[0-9]\+' "$pgn_file" | cut -d: -f1)
+
+#moves=$(tail -n +13 "$pgn_file")
+
+# Extract the moves from the PGN file starting from the identified line
+moves=$(tail -n +"$move_start_line" "$pgn_file")
 
 uci_moves=$(python3 parse_moves.py "$moves")
 
@@ -47,7 +52,7 @@ display_board() {
         squares=($row)
         printf "%d" "$row_num"
         for square in "${squares[@]}"; do
-            printf " %2s" "$square"
+            printf " %s" "$square"
         done
         printf " %d\n" "$row_num"
     done
@@ -210,11 +215,6 @@ go_to_end() {
     
 }
 
-# Function to get user input
-get_user_input() {
-    read -n 1 -p "Press 'd' to move forward, 'a' to move back, 'w' to go to the start, 's' to go to the end, 'q' to quit: " key
-    echo "$key"
-}
 
 # Initialize the board
 reset_board
@@ -222,8 +222,15 @@ display_board
 
 # Simulate the game interactively
 while true; do
-    
-    key=$(get_user_input)
+
+  
+   echo -n "Press 'd' to move forward, 'a' to move back, 'w' to go to the start, 's' to go to the end, 'q' to quit:"
+   #read -n 1 key
+   read key
+
+
+
+
     case "$key" in
         "d")
             move_forward
@@ -240,6 +247,8 @@ while true; do
         "q")
             echo
             echo "Exiting."
+            echo "End of game."
+
             break
             ;;
         *)
@@ -247,4 +256,5 @@ while true; do
             echo "Invalid key pressed: $key"
             ;;
     esac
+
 done

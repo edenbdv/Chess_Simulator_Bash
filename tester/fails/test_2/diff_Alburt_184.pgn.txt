@@ -1,0 +1,26 @@
+1,12c1,12
+< [Event "Bucharest"]
+< [Site "Bucharest"]
+< [Date "1978.??.??"]
+< [Round "3"]
+< [White "Minev, Nikolay N"]
+< [Black "Alburt, Lev O"]
+< [Result "1/2-1/2"]
+< [WhiteElo "2390"]
+< [BlackElo "2510"]
+< [ECO "B04"]
+< 
+< 1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 g6 5.Bc4 Nb6 6.Bb3 a5 7.a4 Bg7 8.O-O O-O
+---
+> [Event "Bucharest"]
+> [Site "Bucharest"]
+> [Date "1978.??.??"]
+> [Round "3"]
+> [White "Minev, Nikolay N"]
+> [Black "Alburt, Lev O"]
+> [Result "1/2-1/2"]
+> [WhiteElo "2390"]
+> [BlackElo "2510"]
+> [ECO "B04"]
+> 
+> 1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 g6 5.Bc4 Nb6 6.Bb3 a5 7.a4 Bg7 8.O-O O-O

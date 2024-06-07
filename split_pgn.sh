@@ -40,8 +40,9 @@ split_pgn_file() {
 
     # Read the file line by line
     while IFS= read -r line || [ -n "$line" ]; do
+
         # If the line is empty or only whitespace, increment the empty line count
-        if [[ -z "$line" ]]; then
+        if [[ "$line" =~ ^[[:space:]]*$ ]]; then
             empty_line_count=$((empty_line_count + 1))
 
             # If two empty lines are detected, it indicates the end of one game
@@ -51,13 +52,14 @@ split_pgn_file() {
                         game_num=$((game_num + 1))
                         output_file="$output_dir/${base_name}_$game_num.pgn"
 
-                         # Remove trailing newline from game_content
-                        #trimmed_content="${game_content%$'\n'}"
+                         # Append an additional empty line before saving
+                         game_content+="\n"
 
-                        echo -e "${game_content%$'\n'}" > "$output_file"
+                         # Remove trailing newline from game_content
+                         echo -e "${game_content%$'\n'}" > "$output_file"
 
                         # Delete the last row
-                         sed -i '$d' "$output_file"
+                         #sed -i '$d' "$output_file"
 
 
                         echo "Saved game to $output_file"

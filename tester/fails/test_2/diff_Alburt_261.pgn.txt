@@ -1,0 +1,26 @@
+1,12c1,12
+< [Event "New York Inv"]
+< [Site "New York"]
+< [Date "1980.??.??"]
+< [Round "5"]
+< [White "Keene, Raymond D"]
+< [Black "Alburt, Lev O"]
+< [Result "1/2-1/2"]
+< [WhiteElo "2460"]
+< [BlackElo "2515"]
+< [ECO "A43"]
+< 
+< 1.d4 Nf6 2.Nf3 c5 3.d5 b5 4.Bg5 Bb7 5.Bxf6 exf6 6.e4 c4 7.a4 a6 8.Nd4 Qe7
+---
+> [Event "New York Inv"]
+> [Site "New York"]
+> [Date "1980.??.??"]
+> [Round "5"]
+> [White "Keene, Raymond D"]
+> [Black "Alburt, Lev O"]
+> [Result "1/2-1/2"]
+> [WhiteElo "2460"]
+> [BlackElo "2515"]
+> [ECO "A43"]
+> 
+> 1.d4 Nf6 2.Nf3 c5 3.d5 b5 4.Bg5 Bb7 5.Bxf6 exf6 6.e4 c4 7.a4 a6 8.Nd4 Qe7

@@ -1,0 +1,26 @@
+1,12c1,12
+< [Event "USA-ch"]
+< [Site "Berkeley"]
+< [Date "1984.??.??"]
+< [Round "16"]
+< [White "Alburt, Lev O"]
+< [Black "Gurevich, Dmitry"]
+< [Result "1/2-1/2"]
+< [WhiteElo "2455"]
+< [BlackElo "2505"]
+< [ECO "D40"]
+< 
+< 1.d4 Nf6 2.Nf3 e6 3.c4 c5 4.e3 d5 5.Nc3 Nc6 6.a3 Ne4 7.Bd3 Nxc3 8.bxc3 dxc4
+---
+> [Event "USA-ch"]
+> [Site "Berkeley"]
+> [Date "1984.??.??"]
+> [Round "16"]
+> [White "Alburt, Lev O"]
+> [Black "Gurevich, Dmitry"]
+> [Result "1/2-1/2"]
+> [WhiteElo "2455"]
+> [BlackElo "2505"]
+> [ECO "D40"]
+> 
+> 1.d4 Nf6 2.Nf3 e6 3.c4 c5 4.e3 d5 5.Nc3 Nc6 6.a3 Ne4 7.Bd3 Nxc3 8.bxc3 dxc4
